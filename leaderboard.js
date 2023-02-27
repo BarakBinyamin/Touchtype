@@ -153,5 +153,5 @@ window.addEventListener('DOMContentLoaded', (event) => {
 function startThemeMusic(){
 	const audioElementName = "audio"
 	const el = document.getElementById(audioElementName)
-	el?.play()
+	// el?.play()
 }

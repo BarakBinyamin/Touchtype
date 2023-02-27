@@ -7,7 +7,6 @@ Score = 0;
 background="#333";
 mode=0; //aka 1 minute, 2 minute or 3 minute
 refreshLetter();
-audioElementName = "audio";
 
 function refreshLetter(){
     GlobalLetter = String.fromCharCode(65+Math.floor(Math.random() * 26));
@@ -118,9 +117,4 @@ function Timer_(time){
         timer = false;
         clearInterval(intervalVar);
         Timer_(time);}
-}
-
-function startThemeMusic(){
-	const el = document.getElementById(audioElementName)
-	el?.play()
 }

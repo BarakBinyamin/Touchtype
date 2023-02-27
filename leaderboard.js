@@ -149,3 +149,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
     reload_content_timer();
     openNav();
 });
+
+function startThemeMusic(){
+	const audioElementName = "audio"
+	const el = document.getElementById(audioElementName)
+	el?.play()
+}
